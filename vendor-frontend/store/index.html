@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mockjax/1.6.2/jquery.mockjax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ngStorage/0.3.10/ngStorage.min.js"></script>
+  <script src="https://code.angularjs.org/1.2.16/angular-mocks.js"></script>
+  <script src="main.js"></script>
+  <script src="vendorController.js"></script>
+  <script src="vendorService.js"></script>
+  <script src="listController.js"></script>
+  <script src="productController.js"></script>
+  <script src="receiptController.js"></script>
+  <script src="receiptService.js"></script>
+</head>
+
+<body ng-app="vendor-app">
+  <div class='center' ng-controller="VendorController">
+    <h1>{{name}}<br> Order Form</h1>
+  </div>
+  <form>
+    <list></list>
+  
+    <total></total>    
+  </form>
+
+  
+</body>
+
+</html>

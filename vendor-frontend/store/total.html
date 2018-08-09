@@ -1,0 +1,16 @@
+<div>
+  <h4>Items: </h4>
+  <ul>
+    <item item="item" ng-repeat="item in items()"></item>
+    
+  </ul>
+  <h4>Total: </h4><h4 class='total'>${{total()}}</h4>
+  
+  <div class="center">
+    <label for="Customer">Name:</label> <input id="Customer" type="text" title="Name" ng-model="customer"/>
+    <label for="Location">Location:</label> <select id="Location" title="Location" ng-model="location" ng-options="loc for loc in locations"></select> 
+    <!--<input id="Location" type="text" title="Location" ng-model="location"/>-->
+    <label for="Time">Time:</label> <input id="Time" type="datetime-local" title="Time" ng-model="time"/>
+    <button type="submit" class="center" ng-click="processOrder()" >Submit</button>
+  </div>
+</div>

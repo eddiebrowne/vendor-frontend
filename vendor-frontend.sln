@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "vendor-frontend", "vendor-frontend", "{7B95306A-C85B-4221-B6CA-B80A358897ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "store", "store", "{F238722A-1401-4906-9EE0-D91C1960C97E}"
+ProjectSection(SolutionItems) = preProject
+	vendor-frontend\store\Startup.cs = vendor-frontend\store\Startup.cs
+	vendor-frontend\store\listControllerTests.js = vendor-frontend\store\listControllerTests.js
+	vendor-frontend\store\style.css = vendor-frontend\store\style.css
+	vendor-frontend\store\README.md = vendor-frontend\store\README.md
+	vendor-frontend\store\index.html = vendor-frontend\store\index.html
+	vendor-frontend\store\vendorControllerTests.js = vendor-frontend\store\vendorControllerTests.js
+	vendor-frontend\store\Program.cs = vendor-frontend\store\Program.cs
+	vendor-frontend\store\item.html = vendor-frontend\store\item.html
+	vendor-frontend\store\listController.js = vendor-frontend\store\listController.js
+	vendor-frontend\store\product.html = vendor-frontend\store\product.html
+	vendor-frontend\store\main.js = vendor-frontend\store\main.js
+	vendor-frontend\store\productController.js = vendor-frontend\store\productController.js
+	vendor-frontend\store\products.json = vendor-frontend\store\products.json
+	vendor-frontend\store\receiptController.js = vendor-frontend\store\receiptController.js
+	vendor-frontend\store\tests.html = vendor-frontend\store\tests.html
+	vendor-frontend\store\vendorController.js = vendor-frontend\store\vendorController.js
+	vendor-frontend\store\receiptService.js = vendor-frontend\store\receiptService.js
+	vendor-frontend\store\list.html = vendor-frontend\store\list.html
+	vendor-frontend\store\productControllerTests.js = vendor-frontend\store\productControllerTests.js
+	vendor-frontend\store\total.html = vendor-frontend\store\total.html
+	vendor-frontend\store\vendorService.js = vendor-frontend\store\vendorService.js
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "admin", "admin", "{95FBDB40-8B6D-470E-9C5B-CE21DA3E9DA6}"
+ProjectSection(SolutionItems) = preProject
+	vendor-frontend\admin\index.html = vendor-frontend\admin\index.html
+	vendor-frontend\admin\item.html = vendor-frontend\admin\item.html
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F238722A-1401-4906-9EE0-D91C1960C97E} = {7B95306A-C85B-4221-B6CA-B80A358897ED}
+		{95FBDB40-8B6D-470E-9C5B-CE21DA3E9DA6} = {7B95306A-C85B-4221-B6CA-B80A358897ED}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+<li class='center'>
+  <div><h4>{{$ctrl.product.name}}</h4></div>
+  <div><img src="{{$ctrl.product.picture}}" width=100%></div>
+  <div>{{$ctrl.product.quantity}} available</div>
+  <div>${{$ctrl.product.price.toFixed(2)}} / {{$ctrl.product.unit}}</div>
+  <input id="p{{$ctrl.product.id}}" type="number" min="0" max="{{$ctrl.product.quantity}}"
+         ng-model="$ctrl.product.count">
+  <input type="button"
+         value="Order"
+         name="order"
+         title="Click here to order this product."
+         ng-click="order($ctrl.product, $('#p{{$ctrl.product.id}}').val())">
+</li>

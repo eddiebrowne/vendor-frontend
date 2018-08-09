@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2018.1/system/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_vendor-frontend.-924635306.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="vendor-frontend" t="Include">
+        <e p="admin" t="Include">
+          <e p="index.html" t="Include" />
+          <e p="item.html" t="Include" />
+        </e>
+        <e p="store" t="Include">
+          <e p="Program.cs" t="Include" />
+          <e p="README.md" t="Include" />
+          <e p="Startup.cs" t="Include" />
+          <e p="index.html" t="Include" />
+          <e p="item.html" t="Include" />
+          <e p="list.html" t="Include" />
+          <e p="listController.js" t="Include" />
+          <e p="listControllerTests.js" t="Include" />
+          <e p="main.js" t="Include" />
+          <e p="product.html" t="Include" />
+          <e p="productController.js" t="Include" />
+          <e p="productControllerTests.js" t="Include" />
+          <e p="products.json" t="Include" />
+          <e p="receiptController.js" t="Include" />
+          <e p="receiptService.js" t="Include" />
+          <e p="style.css" t="Include" />
+          <e p="tests.html" t="Include" />
+          <e p="total.html" t="Include" />
+          <e p="vendorController.js" t="Include" />
+          <e p="vendorControllerTests.js" t="Include" />
+          <e p="vendorService.js" t="Include" />
+        </e>
+      </e>
+      <e p="vendor-frontend.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

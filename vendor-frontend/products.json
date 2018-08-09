@@ -1,0 +1,28 @@
+[{
+  "id": 1,
+  "name": "Yummy Flower",
+  "picture": "http://images.all-free-download.com/images/graphicthumb/butterfly_flower_01_hd_pictures_166973.jpg",
+  "quantity": 7,
+  "unit": "per bunch",
+  "price": 1.40,
+  "count": 0,
+  "order": 0
+}, {
+  "id": 2,
+  "name": "Pretty Flower",
+  "picture": "https://images.pexels.com/photos/36753/flower-purple-lical-blosso.jpg?auto=compress&cs=tinysrgb&h=350",
+  "quantity": 1,
+  "unit": "each",
+  "price": 2.00,
+  "count": 0,
+  "order": 0
+}, {
+  "id": 3,
+  "name": "Flower",
+  "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Liliumbulbiferumflowertop.jpg/220px-Liliumbulbiferumflowertop.jpg",
+  "quantity": 3,
+  "unit": "per box",
+  "price": 3.00,
+  "count": 0,
+  "order": 0
+}]

@@ -1,0 +1,32 @@
+/* Styles go here */
+
+ul {
+  list-style-type: none;
+}
+
+input {
+  margin-bottom: 2em;
+}
+
+li {
+  border-bottom: 1px solid;
+}
+
+.center {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item {
+  float: left;
+}
+
+.subtotal,
+.total {
+  text-align: right;
+}
+
+.tests{
+  font: helvetica;
+}
