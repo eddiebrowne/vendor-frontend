@@ -1,9 +1,12 @@
- var vendorController = function($scope, $localStorage, vendorService) {
-   $scope.name = vendorService.vendorName;
-   //$scope.locations = vendorService.locations;
+ var vendorController = function($scope, vendorService) {
+    vendorService.retrieve(function (){
+      $scope.name = vendorService.vendorName;
+      //console.log($scope.name);
+    });
  };
 
- vendorController.$inject = ["$scope", "$localStorage", "vendorService"];
+vendorController.$inject = ["$scope", "vendorService"];
 
- angular.module("vendor-app", ['ngStorage'])
- .controller("VendorController", vendorController);
+ angular
+   .module("vendor-app")
+   .controller("VendorController", vendorController);

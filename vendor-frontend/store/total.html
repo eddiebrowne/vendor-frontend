@@ -2,15 +2,57 @@
   <h4>Items: </h4>
   <ul>
     <item item="item" ng-repeat="item in items()"></item>
-    
+
   </ul>
   <h4>Total: </h4><h4 class='total'>${{total()}}</h4>
-  
-  <div class="center">
-    <label for="Customer">Name:</label> <input id="Customer" type="text" title="Name" ng-model="customer"/>
-    <label for="Location">Location:</label> <select id="Location" title="Location" ng-model="location" ng-options="loc for loc in locations"></select> 
-    <!--<input id="Location" type="text" title="Location" ng-model="location"/>-->
-    <label for="Time">Time:</label> <input id="Time" type="datetime-local" title="Time" ng-model="time"/>
-    <button type="submit" class="center" ng-click="processOrder()" >Submit</button>
+
+  <div class="center" ng-show="show">
+    <table class="center">
+      <tr><td>
+        <label for="Customer">Name:</label></td><td> 
+        <input id="Customer" class="pickup" type="text" title="Name" ng-model="customer"/>    
+      </td></tr>
+      
+      <tr><td>
+        <label for="Location">Location:</label></td><td> 
+        <select 
+          id="Location" 
+          class="pickup" 
+          title="Location" 
+          ng-model="location"
+          ng-options="loc.name for loc in markets">
+        </select>    
+      </td></tr>
+
+      <tr><td>
+        <label for="Date">Pickup Day:</label></td><td>
+        <select 
+          id="Date" 
+          class="pickup" 
+          title="Date" 
+          ng-model="date"
+          ng-disabled="days.length == 0"
+          ng-options="day as day.day for day in days">
+          <option value="" disabled>Select date</option>
+        </select>
+      </td></tr>
+      
+      <tr><td>
+        <label for="Time">Pickup Time:</label></td><td>
+        <input
+          id="Time"
+          class="form-control pickup"
+          locale="en"
+          moment-picker="pickupTime"
+          format="HH:mm"
+          min-date="startTime"
+          max-date="endTime"
+          ng-model="pickupTime"
+          placeholder="Select pickup time..."/>        
+      </td></tr>
+      <tr><td colspan="2">
+        <button id="submit" class="center" type="submit" ng-click="processOrder()">Place Order</button>
+      </td></tr>
+    </table>
   </div>
 </div>

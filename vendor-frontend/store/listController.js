@@ -3,7 +3,7 @@ var listController = function ($scope, $http) {
   $http.get("http://localhost:5000/api/products?vendor=somevendor")
     .then(
       function successFunction(response) {
-        console.log(response.data);
+        //console.log(response.data);
         $scope.list = response.data;        
       },
       function errorFunction(error) {
